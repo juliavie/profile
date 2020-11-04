@@ -1,0 +1,103 @@
+body {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+  color: #B955A4;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 15px;
+  font-family: open-sans, sans-serif;
+  font-weight: 100;
+}
+
+a {
+  font-size: 15px;
+  font-family: open-sans, sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 15px;
+  font-family: open-sans, sans-serif;
+  font-weight: 100;
+}
+
+ul {
+  font-size: 15px;
+  font-family: open-sans, sans-serif;
+  font-weight: 100;
+}
+
+.image-circle {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+button {
+  font-weight: bold;
+  background: #B955A4;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 200ms ease;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 1.0);
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+}
+.container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline;
+}
+
+.social-icons li i {
+  font-size: 30px;
+  margin: 0 10px;
+  color: #B955A4;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
